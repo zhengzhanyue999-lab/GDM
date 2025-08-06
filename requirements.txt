@@ -6,3 +6,5 @@ shap
 scikit-learn
 openpyxl
 matplotlib
+ipython
+
