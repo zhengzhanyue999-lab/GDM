@@ -1,0 +1,40 @@
+{
+  "target": "GDM",
+  "features": [
+    "HDL-C",
+    "TC",
+    "LDL-C",
+    "TG",
+    "Glucose",
+    "lnCu+10",
+    "lnAs+10",
+    "lnPb+10",
+    "GGT",
+    "SF",
+    "ChE",
+    "PTA",
+    "lnCd+10",
+    "Tg"
+  ],
+  "less_than_strategy": "raw",
+  "metrics": {
+    "threshold": 0.3,
+    "auc": 0.9646983823412224,
+    "accuracy": 0.9030470914127424,
+    "f1": 0.8325358851674641,
+    "recall_sensitivity": 0.925531914893617,
+    "specificity": 0.8951310861423221,
+    "ppv": 0.7565217391304347,
+    "npv": 0.9715447154471545,
+    "confusion_matrix": [
+      [
+        239,
+        28
+      ],
+      [
+        7,
+        87
+      ]
+    ]
+  }
+}
